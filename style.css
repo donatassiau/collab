@@ -169,3 +169,82 @@ h2 {
     align-items: center;
     justify-content: space-around;
 }
+
+.bigPhoneContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.vendorAppAndPhoneContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 50px;
+}
+
+.paragraph {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.vendorAppPhone {
+    width: 50%;
+}
+
+.paragraphBtnContainer {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.75);;
+}
+
+.paragraphBtnContainer>button {
+    width: 50%;
+    padding: 5px 0px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.paragraphBtnContainer>button:hover {
+    border: #9A54BC 2px solid;
+    border-radius: 3px;
+    background-color: #60267F;
+    color: white;
+}
+
+.paragraphContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vendorParagraph {
+    background-color: #f2f2f2;
+    width: 95%;
+    padding: 15px 15px;
+    font-size: 10px;
+}
+
+.vendorParagraph span {
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.vendorAppPhone {
+    display: flex;
+    justify-content: center;
+}
