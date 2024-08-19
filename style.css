@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 21px;
+}
 
 .topLine {
     width: 100%;
@@ -81,6 +84,88 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.topSectionHeader {
+    font-size: 32px;
+    text-align: center;
+    color: #2B0236;
 
 }
 
+.topSectionButton {
+    background-color: #9A54BC;
+    padding: 10px 15px;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.topSectionButton:hover {
+    background-color: white;
+    color: #9A54BC;
+    cursor: pointer;
+}
+
+.elipsesContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+
+}
+
+.absolute {
+    position: absolute;
+}
+
+.mazas {
+    top: 80px;
+}
+
+.telefonas {
+    top: 90px;
+}
+
+.collab {
+    top: 170px;
+}
+
+.elipseBtn {
+    bottom: 100px;
+    padding: 3px 7px;
+    font-size: 10px;
+    background-color: white;
+    border: 1.5px solid;
+    border-color: #60267F;
+    border-radius: 5px;
+    color: #9A54BC;
+    cursor: pointer;
+}
+
+.elipseBtn:hover {
+    background-color: #60267F;
+    color: white;
+
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.icons {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
